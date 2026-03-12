@@ -122,7 +122,7 @@ a{
     height: auto;
     position: relative;
     top: 2rem;
-    left: 300px;
+    left: 20%;
     text-align: left;
     color: #000000;
     font-size: 14px;
@@ -153,6 +153,7 @@ a{
     color: rgb(8, 8, 8);
     font-size: 17px;
     display: none;
+    
 }
 
 .quote{
@@ -160,7 +161,7 @@ a{
     height: 15%;
     background-color:  rgb(30, 32, 32);
     position: relative;
-    top: 23rem;
+    top: 362px;
     left: 35%;
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
