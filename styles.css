@@ -118,11 +118,11 @@ a{
     
 }
 .Text{
-    width: 100%;
+    width: 50%;
     height: auto;
-    position: relative;
-    top: 2rem;
-    left: 20%;
+    position: absolute;
+    top: 60%;
+    left: 15%;
     text-align: left;
     color: #000000;
     font-size: 14px;
@@ -157,12 +157,12 @@ a{
 }
 
 .quote{
-    width: 70%;
-    height: 15%;
+    width: 500px;
+    height: 30px;
     background-color:  rgb(30, 32, 32);
-    position: relative;
-    top: 362px;
-    left: 35%;
+    position: absolute;
+    top: 92.5%;
+    left: 28%;
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
     text-align: center;
@@ -539,6 +539,7 @@ width: 200px;
     margin: 100px 0px;
     width: 70%;
     height: 60vh;
+    max-height: 500px;
     background-image:linear-gradient(to left, rgba(208, 125, 9, 0.169), rgba(1, 1, 17, 0.451));
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
