@@ -92,7 +92,7 @@ a{
     height: 151%;
     flex-direction: column;
     position: relative;
-    bottom: 12.5rem;
+    bottom: 51%;
     right: 0;
     overflow: hidden;
 }
@@ -222,6 +222,7 @@ a{
     position: relative;
     top: 50px;
     right: 5%;
+    
 }
 .first{
     width: 300px;
@@ -655,7 +656,8 @@ button{
         -webkit-tap-highlight-color: transparent;
         background-color: #854310;
         border-radius: 2px;
-        padding: 6px 24px;
+        padding: 6px 30px;
+        border-radius: 5px;
     }
     
     #navBar:hover{
@@ -708,7 +710,6 @@ button{
 
     }
 .image{
-    margin: 75px 0%;
     height: 325px;
     max-height: 200%;
     
@@ -759,9 +760,10 @@ hr{
 .Projtwo{
     position: absolute;
     top: 10%;
-    height: 600px;
+    height: 610px;
     overflow-y: hidden;
     scrollbar-width: none;
+    -webkit-overflow-scrolling: none;
     
 }
 .buttondiv{
@@ -786,7 +788,7 @@ hr{
 }
 .projtwowords{
     position: absolute;
-    top: 373px;
+    top: 63%;
     font-size: 11px;
 
 
@@ -801,6 +803,7 @@ hr{
 .container{
     min-width: 100%;
     scrollbar-width: none;
+    -webkit-overflow-scrolling: none;
 }
 .thirdseccontainertwo{
     height: 70px;
