@@ -12,6 +12,7 @@ body{
     background-size: cover;
     background-position: center;
     background-position-x: none;
+    position: relative;
 }
 
 header{
@@ -87,13 +88,12 @@ a{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    width: 300px;
-    height: 600px;
-    max-height: 600px;
-    max-width: 300px;
+    width: 30rem;
+    height: 151%;
     flex-direction: column;
     position: relative;
     bottom: 12.5rem;
+    right: 0;
     overflow: hidden;
 }
 .sun{
@@ -103,8 +103,8 @@ a{
     background: radial-gradient(circle, #d1bd0ddc, #e16e09d6);
     z-index: 3;
     position: absolute;
-    right: 50px;
-    bottom: 350px; 
+    bottom: 85%;
+    right: 8rem;
     z-index: -999;
     box-shadow: 0 0 30px rgba(225, 154, 0, 0.761);
     
@@ -118,11 +118,11 @@ a{
     
 }
 .Text{
-    width: 50%;
+    width: 100%;
     height: auto;
-    position: absolute;
-    top: 60%;
-    left: 15%;
+    position: relative;
+    top: 30%;
+    left: 30%;
     text-align: left;
     color: #000000;
     font-size: 14px;
@@ -143,7 +143,7 @@ a{
 }
 .subtitile{
     position: relative;
-    bottom: 50px;
+    bottom: 25%;
     left: 0%;
     color: #e17414e2;
     text-shadow: #000 2px 2px 2px;
@@ -157,19 +157,18 @@ a{
 }
 
 .quote{
-    width: 500px;
-    height: 30px;
+    width: 50%;
+    height: 5%;
     background-color:  rgb(30, 32, 32);
     position: absolute;
-    top: 92.5%;
-    left: 28%;
+    top: 95%;
+    left: 20%;
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
     text-align: center;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    
 }
 .quote p{
     color: #c2bcbc;
@@ -182,8 +181,7 @@ a{
 /*Second sec*/
 #snd{
     width: 100%;
-    height: 70vh;
-    max-height: 800px;
+    height: 750px;
     background: linear-gradient(to right, rgba(203, 194, 187, 0.581), rgba(228, 121, 14, 0.196));
     display: flex;
     justify-content: space-between;
@@ -263,7 +261,7 @@ a{
 }
 .buttondiv{
     position: absolute;
-    top: 70%;
+    top: 69%;
     width: 300px;
     height: auto;
     text-align: center;
@@ -538,8 +536,7 @@ width: 200px;
 #form{
     margin: 100px 0px;
     width: 70%;
-    height: 60vh;
-    max-height: 500px;
+    height: 600px;
     background-image:linear-gradient(to left, rgba(208, 125, 9, 0.169), rgba(1, 1, 17, 0.451));
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
@@ -622,7 +619,6 @@ button{
     }
     header{
         backdrop-filter: blur(25px);
-        width: 100%;
     }
     .styles{
         width: 1300px;
@@ -653,14 +649,13 @@ button{
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         font-size: 15px;
         box-shadow: #000 1px 1px 10px;
-        overflow: hidden;
     }
     li:hover{
         transition: ease-in-out 2m;
         -webkit-tap-highlight-color: transparent;
-        background-color: #6b340a;
+        background-color: #854310;
         border-radius: 2px;
-        padding: 6px 30%;
+        padding: 6px 24px;
     }
     
     #navBar:hover{
@@ -746,7 +741,7 @@ hr{
 .Projone{
     height: 45px;
     width: 45%;
-    margin: 0%;
+    margin: 5% 0%;
     padding: 0%;
     position: absolute;
     top:0%;
@@ -770,7 +765,7 @@ hr{
     
 }
 .buttondiv{
-    margin: 28% 0%;
+    margin: 30% 0%;
     gap: 7px;
     padding-left: 25%;
     outline: none;
@@ -818,6 +813,12 @@ hr{
     left: 0%;
     font-family: "Orbitron";
     color: #d2cacae9;
+    margin: 5% 0%;
+    
+    
+    
+    
+
 }
 
 
@@ -840,7 +841,7 @@ hr{
 }
 #form input{
     height: 30px;
-    font-size: 12px;
+    font-size: 10px;
 }
  button{
         margin: 0px 40%;
