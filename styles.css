@@ -619,7 +619,9 @@ button{
    
     }
     header{
-        backdrop-filter: blur(25px);
+    background-color: rgba(30, 32, 32, 0.418);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
     }
     .styles{
         width: 1300px;
@@ -762,8 +764,7 @@ hr{
     top: 10%;
     height: 610px;
     overflow-y: hidden;
-    scrollbar-width: none;
-    -webkit-overflow-scrolling: none;
+    scrollbar-width: hidden;
     
 }
 .buttondiv{
@@ -788,7 +789,7 @@ hr{
 }
 .projtwowords{
     position: absolute;
-    top: 373px;
+    top: 372px;
     font-size: 65%;
 
 
