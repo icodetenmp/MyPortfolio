@@ -608,7 +608,7 @@ button{
 
 /*MObile res*/
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
 
     body{
         width: 100%;
@@ -636,7 +636,7 @@ button{
         
     }
     #navBar{
-        background: linear-gradient(to right, rgba(29, 29, 29, 0.551), #d25309b5);
+        background: linear-gradient(to right, rgba(29, 29, 29, 0.401), #d2530972);
         margin: 10% 50px;
         width: 700px;
         height: 100px;
@@ -670,7 +670,7 @@ button{
     #intro{
         margin-top: 250px;
         height: 200px;
-        min-height: 200%;
+        
         
     }
 
@@ -737,6 +737,11 @@ button{
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
+        overflow: hidden;
+        scrollbar-width: hidden;
+}
+#snd::-webkit-scrollbar{
+    display: none;
 }
 hr{
     display: none;
@@ -762,26 +767,31 @@ hr{
 .Projtwo{
     position: absolute;
     top: 10%;
+    left: 10%;
     height: 610px;
     overflow-y: hidden;
     scrollbar-width: hidden;
-    
+    max-width: 200%;
+    height: 650px;
+}
+.Projtwo::-webkit-scrollbar{
+    display: none;
 }
 .buttondiv{
-    margin: 30% 0%;
+    margin: 18% 0%;
     gap: 7px;
     padding-left: 25%;
     outline: none;
     -webkit-tap-highlight-color: transparent;
 }
 .buttonone{
-    width: 140px;
+    width: 120px;
     height: 40px;
     border-radius: 20px;
     font-size: 15px;
 }
 .buttontwo{
-    width: 140px;
+    width: 120px;
     height: 40px;
     border-radius: 20px;
     font-size: 15px;
@@ -800,12 +810,21 @@ hr{
 #Thirdsec{
     display: flex;
     justify-content: center;
+    position: relative;
+    height: 50vh;
+    overflow: hidden;
+    
 }
 .container{
     min-width: 100%;
     scrollbar-width: hidden;
     overscroll-behavior-y: none;
     -webkit-overflow-scrolling: none;
+    position: absolute;
+    left: 0;
+}
+.container::-webkit-scrollbar{
+    display: none;
 }
 .thirdseccontainertwo{
     height: 70px;
@@ -819,21 +838,40 @@ hr{
     font-family: "Orbitron";
     color: #d2cacae9;
     margin: 5% 0%;
-    
-    
-    
-    
-
+}
+.thirdone{
+    width: 250px;
+    height: 250px;
+    margin: 20px 0px;
 }
 
+.thirdtwo{
+    width: 250px;
+    height: 250px;
+    margin: 20px 0px;
+}
+.thirdthree{
+    width: 250px;
+    height: 250px;
+    margin: 20px 0px;
+}
+
+.thirdfour{
+    width: 250px;
+    height: 250px;
+    margin: 20px 0px;
+}
 
 #Contact{
+
         height: 80vh;
+        position: relative;
 }
 #form{
         height: 400px;
         width: 90%;
         padding: 10% 3%;
+        position: absolute;
 }
 #form h2{
     margin-bottom: 10%;
