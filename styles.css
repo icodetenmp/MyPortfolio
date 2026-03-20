@@ -76,7 +76,7 @@ a{
 #intro{
     background-color: rgba(212, 209, 209, 0.722);
     width: 100%;
-    height: 37.5vh;
+    height: 300px;
     display: flex;
     justify-content: space-between;
     margin-top: 300px;
@@ -91,8 +91,8 @@ a{
     width: 300px;
     height: 151%;
     flex-direction: column;
-    position: relative;
-    bottom: 51%;
+    position: absolute;
+    bottom: 0.1%;
     right: 0%;
     overflow: hidden;
 }
@@ -121,7 +121,7 @@ a{
     width: 100%;
     height: auto;
     position: relative;
-    top: 30%;
+    top: 22px;
     left: 30%;
     text-align: left;
     color: #000000;
@@ -221,7 +221,7 @@ a{
     scrollbar-width: none;
     position: relative;
     top: 50px;
-    right: 5%;
+    right: 2%;
     
 }
 .first{
@@ -524,7 +524,7 @@ width: 200px;
 
 #Contact{
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background-image: linear-gradient(to left, rgba(208, 125, 9, 0.665), rgba(1, 1, 17, 0.928)), url(./images/tehconnectdownload.gif);
     background-repeat: no-repeat;
     background-size: cover;
@@ -600,7 +600,7 @@ button{
     background-color: rgb(56, 51, 184);
     width: 100px;
     height: 50px;
-    margin: 0% 50%;
+    margin: 0% 40%;
     border: none;
     border-radius: 10px;
     color: #fff;
