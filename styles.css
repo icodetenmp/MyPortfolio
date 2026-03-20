@@ -81,6 +81,7 @@ a{
     justify-content: space-between;
     margin-top: 300px;
     position: relative;
+    
 }
 
 .image{
@@ -88,13 +89,12 @@ a{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    width: 300px;
+    width: 220px;
     height: 151%;
     flex-direction: column;
     position: absolute;
     bottom: 0.1%;
-    right: 0%;
-    overflow: hidden;
+    right: 0%; 
 }
 .sun{
     width: 250px;
@@ -670,15 +670,15 @@ button{
     #intro{
         margin-top: 250px;
         height: 200px;
-        
-        
+    
     }
 
 
     .Text{
         display: inline-block;
         position: absolute;
-        left: 2%;
+        left: 5px;
+        top: 175px;
         bottom: 0;
         font-size: 10px;
         width: 200px;
@@ -715,8 +715,7 @@ button{
     height: 325px;
     max-height: 200%;
     
-    
-    
+
 }
 .quote{
     position: absolute;
@@ -811,7 +810,7 @@ hr{
     display: flex;
     justify-content: center;
     position: relative;
-    height: 50vh;
+    height: 350px;
     overflow: hidden;
     
 }
@@ -864,7 +863,8 @@ hr{
 
 #Contact{
 
-        height: 80vh;
+        height: 500px;
+        max-height: 100%;
         position: relative;
 }
 #form{
