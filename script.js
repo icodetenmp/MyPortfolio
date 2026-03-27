@@ -3,7 +3,7 @@ const text = document.querySelector(".word");
 const hamburger = document.querySelector(".fa-solid");
 const navbar = document.getElementById("navBar")
 
-const words = "Junior full stack developer || virtual-assistant I build web applications and help businesses run smoothly.\nWhether its coding a feature or managin task, bring dedication and problem solving to every thing i do.\n Lets waalk through knowing me.";
+const words = "Junior full stack developer || virtual-assistant I build web applications and help businesses run smoothly.\nWhether its coding a feature or managin task, bring dedication and problem solving to every thing i do.\n Let waalk through my projects.";
 
 let index = 0;
 
