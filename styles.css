@@ -97,7 +97,7 @@ a{
     height: 151%;
     flex-direction: column;
     position: absolute;
-    bottom: 0.1%;
+    bottom: 0%;
     right: 0%; 
 }
 .sun{
@@ -809,8 +809,8 @@ hr{
 }
 .projtwowords{
     position: absolute;
-    top: 372px;
-    font-size: 65%;
+    top: 370px;
+    font-size: 60%;
 
 
 }
