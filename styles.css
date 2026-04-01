@@ -13,6 +13,8 @@ body{
     background-position: center;
     background-position-x: none;
     position: relative;
+    overflow: hidden;
+    overflow-y: auto;
 }
 
 header{
@@ -545,7 +547,7 @@ a{
 }
 #form{
     margin: 100px 0px;
-    width: 50rem;
+    width: 48rem;
     height: 65%;
     background-image:linear-gradient(to left, rgba(208, 125, 9, 0.169), rgba(1, 1, 17, 0.451));
     backdrop-filter: blur(10px);
@@ -724,7 +726,6 @@ button{
 .image{
     height: 325px;
     max-height: 200%;
-    
 
 }
 .quote{
