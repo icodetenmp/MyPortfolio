@@ -236,6 +236,7 @@ a{
     box-shadow: #000 5px 10px 15px;
     overflow: hidden;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     border: #4e4949f2 solid 3px;
     border-radius: 10px;
@@ -244,12 +245,10 @@ a{
 .projtwotitle{
     min-width: 100%;
     position: relative;
-    top: 72%;
-    right: 100%;
+    bottom: 3.5rem;
     font-size: 1.2vh;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;;
     color: rgb(255, 248, 248);
-    
     text-align: center;
     display: inline;
 }
@@ -263,6 +262,7 @@ a{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #ffffffce;
     text-shadow: #00000062 2px 2px 2px;
+    padding: 0.2rem;
 
 }
 .buttondiv{
@@ -366,9 +366,10 @@ a{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    margin-left: 100%;
     border-radius: 10px;
     display: inline;
+    position: relative;
+    bottom: 4.5rem;
 
 }
 
@@ -968,4 +969,16 @@ hr{
     .second h2{
         font-size: 2.5vh;
     }
+    .buttondiv{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        padding: 0%;
+    }
+
+    #form{
+        padding: 3rem;
+    }
+    
  }
