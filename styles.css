@@ -912,7 +912,6 @@ hr{
 #form{
         height: 380px;
         width: 90%;
-        padding: 10% 3%;
         position: absolute;
 }
 #form h2{
@@ -922,10 +921,12 @@ hr{
 }
 #form label{
     font-size: 15px;
+    padding: 0 1rem;
 }
 #form input{
     height: 30px;
     font-size: 10px;
+    max-width: 80%;
 }
  button{
         margin: 0px 40%;
